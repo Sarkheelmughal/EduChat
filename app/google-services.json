@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "985227511999",
+    "firebase_url": "https://educhat-aec74-default-rtdb.firebaseio.com",
+    "project_id": "educhat-aec74",
+    "storage_bucket": "educhat-aec74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985227511999:android:3ebd31b509c85cbde71e0a",
+        "android_client_info": {
+          "package_name": "com.example.educhat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985227511999-n89lrfipgidk248uf5tr7gfpc7bldr9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLDIxOUD_a-884B3rLaGAVXPWnhOZcjhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985227511999-n89lrfipgidk248uf5tr7gfpc7bldr9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

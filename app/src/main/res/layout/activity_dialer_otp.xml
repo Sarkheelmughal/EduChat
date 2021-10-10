@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/skyBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/back_dailerOPT_CV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="4dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back_home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:src="@drawable/back_ic" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Sign up via Phone"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+
+    <ImageView
+        android:id="@+id/pencilIV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/get_start_one_ic"
+        app:layout_constraintBottom_toTopOf="@+id/enterTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.35"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:layout_constraintWidth_percent="0.75" />
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/view6"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:weightSum="2"-->
+    <!--        android:layout_marginBottom="20dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@id/sendOptBtn"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--         >-->
+
+    <!--        &lt;!&ndash;                    <com.hbb20.CountryCodePicker&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        android:id="@+id/ccp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        android:gravity="center"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        app:ccp_textSize="16sp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        app:ccp_defaultPhoneCode="92"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        app:ccp_showNameCode="false"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        app:ccp_showPhoneCode="true"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        app:ccpDialog_showCloseIcon="true"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        android:layout_marginRight="5dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        app:ccp_excludedCountries="ar,bh,bj,bo,ba,io,vg,bf,cn,cc,dm,do,gq,fk,fi,gn,gw,in,id,li,mq,ps,pg,ph,bl"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        app:ccp_contentColor="@color/colorPrimaryDark"&ndash;&gt;-->
+    <!--        &lt;!&ndash;                        />&ndash;&gt;-->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center_horizontal">-->
+
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_vertical"-->
+    <!--                android:layout_weight="1"-->
+
+    <!--                android:gravity="end">-->
+
+
+    <!--            </RelativeLayout>-->
+    <!--           -->
+    <!--        </LinearLayout>-->
+    <!--    </LinearLayout>-->
+    <TextView
+        android:id="@+id/enterTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Enter the OTP sent to you &amp;\nwe'll take you to the moon.  "
+        android:textColor="#707070"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pencilIV" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="OTP is send to "
+        android:textColor="#707070"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/view7"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toBottomOf="@+id/enterTV" />
+
+    <TextView
+        android:id="@+id/mobileNumberTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/skyBlue" android:text="0000"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView37"
+        app:layout_constraintStart_toEndOf="@+id/textView37"
+        app:layout_constraintTop_toTopOf="@+id/textView37" />
+
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/view7"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@null"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textIsSelectable="false"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/verifyBTn"
+        app:layout_constraintEnd_toEndOf="@+id/verifyBTn"
+        app:layout_constraintStart_toStartOf="@+id/verifyBTn"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:pinAnimationType="fromBottom"
+        app:pinBackgroundDrawable="@drawable/bg_pin"
+android:gravity="center"
+        app:pinBackgroundIsSquare="true"
+        app:pinCharacterSpacing="4dp"
+        app:pinTextBottomPadding="16dp"
+        tools:ignore="SpUsage" />
+
+    <Button
+        android:id="@+id/verifyBTn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.083"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/sky_blue_radius"
+
+        android:text="Verify OTP"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Didn't receive SMS? "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/resendTV"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/verifyBTn" />
+
+    <TextView
+        android:id="@+id/resendTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Resend Code "
+        android:textColor="@color/skyBlue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@id/verifyBTn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

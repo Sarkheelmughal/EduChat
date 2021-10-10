@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    >
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:id="@+id/layoutTop"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/freeText"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_alignParentTop="true"-->
+    <!--            android:layout_marginTop="60dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="Free For Now!"-->
+    <!--            android:textColor="@color/colorPrimaryDark"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textStyle="bold" />-->
+
+    <!--        <View-->
+    <!--            android:id="@+id/view3"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="150dp"-->
+    <!--            android:background="@drawable/start_screnn_radius"-->
+    <!--            android:backgroundTint="@color/gray" />-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <View-->
+    <!--                android:id="@+id/view4"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="7dp"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginTop="180dp"-->
+    <!--                android:background="@drawable/view_round" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textView6"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="36dp"-->
+    <!--                android:layout_marginEnd="156dp"-->
+    <!--                android:text="Sign in"-->
+    <!--                android:textColor="#000000"-->
+    <!--                android:textSize="30sp"-->
+    <!--                android:textStyle="bold"-->
+    <!--                app:layout_constraintBottom_toBottomOf="@+id/view3"-->
+    <!--                app:layout_constraintHorizontal_bias="0.197"-->
+    <!--                app:layout_constraintStart_toStartOf="parent"-->
+    <!--                app:layout_constraintTop_toBottomOf="@+id/view4"-->
+    <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/view6"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:weightSum="2"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/textView6">-->
+
+<!--                    &lt;!&ndash;                    <com.hbb20.CountryCodePicker&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:id="@+id/ccp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:gravity="center"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        app:ccp_textSize="16sp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        app:ccp_defaultPhoneCode="92"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        app:ccp_showNameCode="false"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        app:ccp_showPhoneCode="true"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        app:ccpDialog_showCloseIcon="true"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_marginRight="5dp"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        app:ccp_excludedCountries="ar,bh,bj,bo,ba,io,vg,bf,cn,cc,dm,do,gq,fk,fi,gn,gw,in,id,li,mq,ps,pg,ph,bl"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        app:ccp_contentColor="@color/colorPrimaryDark"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        />&ndash;&gt;-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_horizontal">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center_vertical"-->
+<!--                            android:layout_weight="1"-->
+
+<!--                            android:gravity="end">-->
+
+<!--                            <com.rilixtech.widget.countrycodepicker.CountryCodePicker-->
+<!--                                android:id="@+id/ccp"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="45dp"-->
+<!--                                android:layout_marginLeft="5dp"-->
+
+<!--                                android:paddingLeft="10dp"-->
+<!--                                android:background="@drawable/boarder"-->
+<!--                                android:gravity="center"-->
+<!--                                app:ccp_defaultNameCode="PK"-->
+<!--                                app:ccp_hideNameCode="true"-->
+<!--                                app:ccp_textSize="16sp" />-->
+<!--                            &lt;!&ndash;    <EditText&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:id="@+id/ccp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:autofillHints=""&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:layout_width="50dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:gravity="center"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:text="+92"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:textSize="18sp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:inputType="none"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:cursorVisible="false"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:focusable="false"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:paddingBottom="15dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        android:layout_marginStart="110dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;        />&ndash;&gt;-->
+
+
+<!--                            &lt;!&ndash;                   <View&ndash;&gt;-->
+<!--                            &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--                            &lt;!&ndash;                        android:layout_height="1.2dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;                        android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;                        android:background="#828080"&ndash;&gt;-->
+<!--                            &lt;!&ndash;                        android:layout_below="@id/ccp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;                        />&ndash;&gt;-->
+
+<!--                        </RelativeLayout>-->
+
+<!--                        <EditText-->
+<!--                            android:id="@+id/number"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="45dp"-->
+<!--                            android:layout_marginEnd="50dp"-->
+<!--                            android:layout_weight="1"-->
+
+<!--                            android:padding="5dp"-->
+<!--                            android:layout_marginStart="5dp"-->
+
+<!--                            android:background="@drawable/boarder"-->
+<!--                            android:hint="Phone"-->
+<!--                            android:inputType="phone"-->
+
+<!--                            android:paddingBottom="15dp"-->
+<!--                            android:singleLine="true"-->
+<!--                            android:textColorHint="#585757"-->
+<!--                            android:textSize="16sp" />-->
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textView11"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_horizontal"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:gravity="center"-->
+    <!--                android:padding="15dp"-->
+    <!--                android:text="Please enter your phone number.You will receive an OTP from us,Use that  to login.Standard Charges apply."-->
+    <!--                android:textSize="15sp" />-->
+
+
+    <!--           -->
+    <!--        </LinearLayout>-->
+
+    <!--    </RelativeLayout>-->
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/get_start_one_ic"
+        app:layout_constraintBottom_toTopOf="@+id/sen_otp_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sen_otp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="20dp"
+app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/sky_blue_radius">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/tele_ic"/>
+            <TextView
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Sign up via Phone" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintBottom_toTopOf="@+id/fb_login_button_Cv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1.10"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:text="or Sign up"
+            android:textColor="#707070"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1.10"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fb_login_button_Cv"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gmailCV"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/fb_login"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="gone"
+
+            />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fb_ic" />
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:text="Sign in via Facebook"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textStyle="bold" />-->
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progressBarSS"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/gmailCV"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="15dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fb_login_button_Cv">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gmail_ic" />
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:text="Sign in via Google"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textStyle="bold" />-->
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

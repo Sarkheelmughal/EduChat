@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EduChat</string>
+    <string name="splash">Edu.Chat</string>
+    <string name="fb_login">Login with Facebook</string>
+    <string name="learning">Progress Report</string>
+    <string name="performance">Performance : Learn!</string>
+
+    <string name="facebook_app_id">1017312729050131</string>
+    <string name="fb_login_protocol_scheme">fb1017312729050131</string>
+
+    <string name="per_result">Learn the topics in key focus areas and attempt again.We know you can do much better. </string>
+    <string name="score">Score and Solutions</string>
+    <string name="incorrect">0 Incorrect</string>
+    <string name="unanswered">0 Unanswered</string>
+    <string name="view_solutions">View Solutions</string>
+    <string name="statistics">Statistics</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="Avg">Avg.Time/ques</string>
+    <string name="_1_select_a_subject">1. Select a subject:</string>
+
+    <string name="term_and_conditions_streak">● Maintain a streak for 30 days. \n● Score average of 80% in all quizzes. \n● Share your scores on any social media. \n● Invite your friends for a challenge. \n● Get A Chance To Win 10,000 Monthly.</string>
+
+
+</resources>
